@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap'); /* ADDS THE ARVO AND NEUTON FONTS*/
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Neuton', serif;
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(63, 70, 84);
+}
+
+.Header{
+    text-align: center;
+    background-color: rgb(51, 54, 61);
+    padding: 20px;
+    padding-top: 25px;
+    font-size: 75px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.648);
+}
+.sec-head{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.648);
+    font-size: xx-large;
+    font-family: 'Neuton', serif;
+}
+p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.648);
+    font-family: 'Neuton', serif;
+    font-size: x-large;
+}
+.gallery{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.img{
+    padding: 2em;
+    margin-top: 15px;
+    height: 500%;
+}
